@@ -5,5 +5,5 @@ metadata:
   annotations:
     github.com/project-slug: backstage-catalog-test/tc-online-review
 spec:
-  type: other
+  type: owner
   lifecycle: unknown
