@@ -2,9 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: tc-online-review
+  title: Online Review
+  description: description here
+  links:
+    - url: https://www.topcoder.com/
+      title: Topcoder website
+      icon: help
   annotations:
     github.com/project-slug: backstage-catalog-test/tc-online-review
 spec:
-  type: other
-  owner: jason.vu@topcoder.com
-  lifecycle: unknown
+  type: service
+  owner: Topcoder Platform Team
+  lifecycle: experimental
